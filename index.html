@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Ade Ruth Azlin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <header>
+        <h1>Ade Ruth Azlin's Website</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="biodata.html">Biodata</a>
+            <a href="education.html">Education</a>
+            <a href="family.html">Family</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="section__container">
+                <div class="content">
+                    <p class="subtitle">HELLO</p>
+                    <h1 class="title">
+                        I'm <span>Ade<br />a</span> student
+                    </h1>
+                    <p class="description">
+                        Welcome to my portfolio! I'm Ade Ruth Azlin, this
+                        is my first website. Hope you enjoy!!
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="images/myself.jpg" alt="myself" width="200" height="400" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Music Player -->
+        <section class="music-player">
+            <audio id="background-music">
+                <source src="Lofi Chill.mp3" type="audio/mp3" />
+                Your browser does not support the audio element.
+            </audio>
+            <div class="music-controls">
+                <button id="play-button">Play</button>
+                <button id="pause-button">Pause</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2024 Ade Ruth Azlin. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/YourGitHubProfile" target="_blank">
+                    <i class="ri-github-line"></i> GitHub
+                </a>
+                <a href="https://wa.me/60175347190" target="_blank">
+                    <i class="ri-whatsapp-line"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" onclick="toggleTheme()" id="themeToggle">🌙</button>
+
+    <!-- JavaScript -->
+    <script>
+        // Get audio element and buttons
+        const music = document.getElementById("background-music");
+        const playButton = document.getElementById("play-button");
+        const pauseButton = document.getElementById("pause-button");
+
+        // Play music
+        playButton.addEventListener("click", () => {
+            music.play();
+        });
+
+        // Pause music
+        pauseButton.addEventListener("click", () => {
+            music.pause();
+        });
+
+        // Toggle light/dark mode
+        function toggleTheme() {
+            const body = document.body;
+            const toggle = document.getElementById("themeToggle");
+            
+            body.classList.toggle("dark-mode");
+            body.classList.toggle("light-mode");
+
+            if (body.classList.contains("dark-mode")) {
+                toggle.textContent = "🌙"; // Moon icon for dark mode
+            } else {
+                toggle.textContent = "☀️"; // Sun icon for light mode
+            }
+        }
+    </script>
+</body>
+</html>

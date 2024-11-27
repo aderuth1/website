@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FDEDEC; 
+        }
+
+        h1, h3 {
+            text-align: center;
+            color: #bd726a; 
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            padding: 0 15px;
+        }
+
+        /* Header Style */
+        header {
+            background-color: #641E16; 
+            padding: 20px 0;
+        }
+
+        /* Top Navigation Bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #D98880;
+        }
+
+        .topnav a {
+            display: none; /* Remove navigation links */
+        }
+
+        /* Responsive Image Gallery */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 -10px;
+        }
+
+        .column {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            max-width: calc(33.333% - 20px);
+        }
+
+        .column img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media screen and (max-width: 768px) {
+            .column {
+                flex: 1 1 calc(50% - 20px);
+                max-width: calc(50% - 20px);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .column {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1><i>FAMILY</i></h1>
+    </head>
+    </header>
+
+    <!-- Image Gallery Section -->
+    <div class="row">
+        <div class="column">
+            <img src="images/mama.jpg" alt="My Queen" title="My Queen">
+        </div>
+        <div class="column">
+            <img src="images/family 1 (1).jpg" alt="My Love" title="My Love">
+        </div>
+        <div class="column">
+            <img src="images/family.jpg" alt="My Cutie" title="My Cutie">
+        </div>
+    </div>
+
+    <!-- Paragraph Section -->
+    <p>
+        I am the eldest of two siblings, but my grandparents adopted me as their child. When I was five years old, my mother remarried, and my stepfather became part of our family. My stepfather is a caring person who treats his children well. He works as a pastry chef at Weil Hotel, while my mother is a homemaker. When I was six years old, my mother was blessed with a baby girl.
+    </p>
+
+</body>
+</html>

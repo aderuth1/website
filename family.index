@@ -1,0 +1,146 @@
+
+<html>
+<head>
+<title>My Home</title>
+</head>
+<body>
+<div class="bg"></div>
+<table width ="95%" border = "0" align="center">
+<tr>
+<td bgcolor="#FDEDEC">
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+background-image: url("background/flower.jpg");
+height: 40%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+</style>
+
+<div class="bg"></div>
+<body table background="background/white.jpg" width="50%" height="50%">
+<table width ="85%" border = "0" align="center">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #D98880;
+}
+
+.topnav a {
+  float: left;
+  color: #641E16;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+<b><a href="index.html">Home</a></b>
+<b><a href="biodata.html">Biodata</a></b>
+<b><a href="family.html">Family</a></b>
+<b><a href="education.html">Education</a></b>
+<b><a href="friends.html">Friends</a></b>
+<b><a href="favfood_place.html">Fav Food and Place</a></b>
+<b><a href="gallery.html">Gallery</a></b>
+</div>
+
+<br>
+<font color="maroon" font face="times new roman" align="center"</font>
+<h1><i> FAMILY</i></h1>
+</font>
+
+<h3><u>my hero</u></h3>
+</font>
+<br>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<style>
+img {display: block; margin-left: auto; margin-right: auto;}
+</style>
+<div class="row">
+  <div class="column">
+    <img src="images/mama.jpg" alt="My Queen" title="My Queen" style="width:70%" border="1">
+  </div>  
+  <div class="column">
+    <img src="images/family 3.jpg" alt="My Love" title="My Love" 
+style="width:70%" border="1">
+  </div>  
+  <div class="column">
+  <img src="images/family.jpg" alt="My cutie" title="cutie" style="width:70%" border="1">
+  </div>
+</div>
+
+<font size="4" font face="Arial">
+<p align="center">
+    I am the eldest of two siblings, but my grandparents adopted me as their child. When I was five years old, my mother remarried, and my stepfather became part of our family. My stepfather is a caring person who treats his children well. He works as a pastry chef at Weil Hotel, while my mother is a homemaker. When I was six years old, my mother was blessed with a baby girl.
+</font>
+</p>
+
+<hr>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+</head>
+</body>
+</html>
